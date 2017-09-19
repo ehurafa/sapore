@@ -1,0 +1,77 @@
+@media only screen and (min-width : 1600px) {
+	body, html{
+		font-size:14px;
+	}
+
+	.timeline .item span .texto figure .icone-1{
+		width:auto;
+	}
+	.timeline .item span .texto figure .icone-2{
+		width:auto;
+	}
+	.timeline .item span .texto figure .icone-3{
+		width:auto;
+	}
+
+	.timeline .item span .texto figure .icone-4{
+		width:auto;
+	}
+	.timeline .item span .texto figure .icone-5{
+		width:auto;
+	}
+
+	.slideshow .item-1 .inner .texto figure img{ 
+	   width: auto;
+	}
+	.slideshow .item-2 .inner .texto figure img{ 
+	   width: auto;
+	}
+
+	.timeline .item{
+		min-height:940px;
+	}
+	.start{
+		min-height:940px;
+	}
+}
+@media only screen and (max-width : 1600px) {
+	
+	 
+}
+
+
+@media only screen and (max-width : 1201px) {
+}
+
+
+@media only screen and (max-width : 1200px) {
+	html, body{
+	   font-size:10px;
+	}
+}
+
+@media (min-width : 1121px) and (max-width : 1180px) {  
+}
+
+@media  only screen and (max-width : 1180px) {
+}
+
+
+@media only screen and (max-width : 1100px) {
+	html, body{
+	   font-size:9px ;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+}
+
+
+@media only screen and (max-width : 768px) {  
+}
+
+
+@media only screen and (max-width : 450px) {
+
+}
+

@@ -1,0 +1,246 @@
+	body{
+		text-align:center
+	}
+	
+	.wrap{
+		width:100%;
+		float:left;
+		background:#ddd;
+	}
+	.start{
+		width:35%;
+		float:left;
+		min-height:820px;		
+		background:#e6e7e8;
+		position:relative;
+		cursor:pointer;
+		border-right:3px solid #a7a9ac; 
+		border-right:0.250rem solid #a7a9ac;
+		padding-top:94px; padding-top: 7.833rem;
+	}
+	.start span{
+		display:block;
+		position: absolute;
+		top:47%;right:30px;
+		font-size:40px
+	}
+
+	.start .line{
+		display:block;
+		position: absolute;
+		left:65px;
+		left:5.417rem;
+		bottom:-100px;
+		bottom:-5.263rem;
+		width:4px;
+		width:0.333rem;
+		height:462px;
+		height:38.500rem;
+		background:#af1f23;
+		z-index:2;
+	}
+	.timeline{	
+		width:1000px;
+		width:65%;
+		display:block;
+		float:right;
+		position: relative;
+		
+
+	}
+
+
+	#timeline  .init{
+		position: absolute;
+		top:50%;
+		margin-top:-50px;
+		z-index:1000;	
+		background-color: transparent;
+		background-position: 50% 50%;
+		background-repeat:no-repeat;
+	    height: 300px;
+	    margin-top: -150px;
+	    position: absolute;
+	    text-indent: -9999px;
+	    top: 50%;
+	    width: 80px;
+
+	    z-index: 9999;
+	    cursor:pointer;
+	    right:0;
+	    background-image: url("../img/clientes-next.png");
+	}
+	
+
+
+
+	.timeline .content{	
+		width:10000px;
+		width:100%;
+	}
+	.timeline .item{	
+		min-height:820px;
+		display:block;
+		width:300px;
+		float:left;
+		
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dadada+0,ffffff+25,ffffff+74,dadada+100 */
+background: #dadada; /* Old browsers */
+background: -moz-linear-gradient(top,  #dadada 0%, #ffffff 25%, #ffffff 74%, #dadada 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #dadada 0%,#ffffff 25%,#ffffff 74%,#dadada 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #dadada 0%,#ffffff 25%,#ffffff 74%,#dadada 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dadada', endColorstr='#dadada',GradientType=0 ); /* IE6-9 */
+     border-right:3px solid #a7a9ac; 
+		border-right:0.250rem solid #a7a9ac;
+	}
+	.timeline .item.novo{	
+
+	}
+	.timeline .item.primeiro{	
+		display:none;
+	}
+	.timeline .item span{
+		height:auto;
+		display:block;
+		padding:15px;
+		float:left;
+	}
+	.timeline .item span > div{
+		float:left;
+		width:100%;
+		
+	}
+
+	.timeline .item span .ano {
+		text-align:left;
+		margin-top:174px;
+		margin-top:14.500rem;
+	}
+	
+	.timeline .item span .ano h3{
+		color:#af1e22;
+		font-size:60px;  
+		font-size: 5.000rem;
+		font-family: 'MyriadPro-BoldCond';
+	}
+	.timeline .item span .texto{	
+		text-align:left;
+		margin-top:22px;
+		margin-top: 1.833rem;
+		margin-bottom:0;
+	    position: relative;
+		min-height:200px;
+		min-height:16.667rem;
+	}
+	.timeline .item span .texto h4{
+		color:#636466;
+		font-size:2.333rem; font-family: 'MyriadPro-BoldCond';
+		line-height:2.4rem;
+	}
+
+	.timeline .item span .texto figure{
+		position: absolute;
+		left:0;
+		bottom:19px; bottom:1.583rem;
+	}
+
+	.timeline .item span .texto figure .icone-1{
+		width:93px;
+	}
+	.timeline .item span .texto figure .icone-2{
+		width:75px;
+	}
+	.timeline .item span .texto figure .icone-3{
+		width:38px;
+	}
+
+	.timeline .item span .texto figure .icone-4{
+		width:149px;
+	}
+	.timeline .item span .texto figure .icone-5{
+		width:72px;
+	}
+
+
+	.timeline .item span .imagem{
+		margin-top:0;
+		
+	}
+	.timeline .item span .descricao{
+		margin-top:30px;
+		margin-top:2.500rem;
+		text-align:left;
+	}
+	.timeline .item span .descricao p{ 
+		font-size:15px;
+		font-size:1.250rem;
+		line-height:21px; line-height:1.750rem;
+	}
+	.timeline .item span h3{
+		font-size:30px;
+		font-size:2.500rem;
+	}
+	.timeline .item span p{
+		font-size:16;
+		font-size: 1.333rem;
+	}
+	.timeline .item span img{
+		width:100%;
+	}
+	
+	.suave, .timeline .item, .timeline .item span{
+		-moz-transition: width 0.6s ease-in-out, left 0.6s ease-in-out;
+		  -webkit-transition: width 0.6s ease-in-out, left 0.6s ease-in-out;
+		  -moz-transition: width 0.6s ease-in-out, left 0.6s ease-in-out;
+		  -o-transition: width 0.6s ease-in-out, left 0.6s ease-in-out;
+		  transition: width 0.6s ease-in-out, left 0.6s ease-in-out;
+	}
+	
+	#timeline .slick-slider{
+		position: relative;
+	}
+	#timeline  .slick-arrow{
+		position: absolute;
+		top:50%;
+		margin-top:-50px;
+		z-index:1000;
+		opacity:0;
+		background-color: transparent;
+		background-position: 0 0;
+	    height: 52px;
+	    margin-top: -26px;
+	    position: absolute;
+	    text-indent: -9999px;
+	    top: 50%;
+	    width: 35px;
+	    z-index: 1000;
+	    cursor:pointer;
+	}
+	#timeline  .slick-arrow-none{
+		
+		display:none !important;
+	}
+	#timeline  .slick-prev{
+		left:0;
+		background-image: url("../img/clientes-prev.png");
+		left:40px;
+	}
+	#timeline  .slick-next{
+		right:0;
+		background-image: url("../img/clientes-next.png");
+		right:40px;
+		}
+	/* .slick-current { */
+	.maior {
+		
+
+	}
+	
+	#timeline  .slick-dots{
+		display:none !important;
+	}
+
+	.firstPrev{
+		width:0 !important;
+		opacity:0 !important;
+	}
